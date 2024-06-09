@@ -1,0 +1,29 @@
+body {
+    background-color: #070F2B;
+    color: #EEEEEE;
+}
+
+a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.top-bar {
+    background-color: #131e44;
+    margin: 1vmax;
+    padding: 0.5vmax;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    flex: content;
+    flex-direction: column;
+}
+
+.content {
+    gap: 10px;
+    position: absolute;
+    align-self: right;
+}
+
+.top-bar:hover {
+    border-radius: 20px;
+    background-color: #1B1A55 ;
+}
